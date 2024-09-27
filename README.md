@@ -47,19 +47,4 @@ This project is a Flask-based web application that uses face recognition technol
 4. Start the attendance system by clicking **Start Attendance**, and it will recognize users and log their attendance.
 5. View attendance records on the home page and manage users via the **List Users** page.
 
-## **Project Structure**
-```
-face-recognition-attendance-system/
-│
-├── Attendance/                     # Folder to store attendance logs
-├── static/
-│   ├── faces/                      # Folder to store user face images
-│   └── face_recognition_model.pkl   # Trained face recognition model
-├── templates/
-│   ├── home.html                   # Main HTML page for attendance display
-│   ├── listusers.html              # HTML page for listing users
-│   └── adduser.html                # HTML page for adding new users
-├── app.py                          # Flask app with face recognition logic
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
 ```
